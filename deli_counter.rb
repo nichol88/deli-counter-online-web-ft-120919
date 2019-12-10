@@ -15,3 +15,7 @@ def take_a_number(l, name)
   l.push(name)
   puts "Welcome, #{name}. You are number #{l.length} in line."
 end
+
+def now_serving(l)
+  puts "#{l.shift}"
+end
