@@ -20,6 +20,6 @@ def now_serving(l)
   if l.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "#{l.shift}"
+    puts "Currently serving #{l.shift}."
   end
 end
