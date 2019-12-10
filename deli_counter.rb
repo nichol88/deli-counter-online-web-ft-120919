@@ -17,5 +17,9 @@ def take_a_number(l, name)
 end
 
 def now_serving(l)
-  puts "#{l.shift}"
+  if l.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "#{l.shift}"
+  end
 end
