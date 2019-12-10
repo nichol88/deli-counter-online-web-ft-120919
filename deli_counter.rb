@@ -3,9 +3,10 @@ def line(l)
   if l.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently:"
+    x = []
     l.each_with_index { |e, i|
-      puts "#{i + 1}. #{e}"
+      x.push("#{i + 1}. #{e}")
     }
+    puts "The line is currently: #{x.join(" ")}"
   end
 end
