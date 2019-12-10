@@ -11,6 +11,6 @@ def line(l)
   end
 end
 
-def take_a_number(l)
-
+def take_a_number(l, name)
+  l.push(name)
 end
