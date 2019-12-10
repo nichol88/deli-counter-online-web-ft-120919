@@ -13,4 +13,5 @@ end
 
 def take_a_number(l, name)
   l.push(name)
+  puts "You are number #{l.length}"
 end
